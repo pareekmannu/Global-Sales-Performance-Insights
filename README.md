@@ -12,8 +12,9 @@ An executive-level Power BI dashboard engineered to translate complex global ret
 ---
 
 ## 🚀 Interactive Links
-* 🌐 **Live Interactive Dashboard:** 
-* 📂 **Dataset Source:** Global Retail / Superstore Transactional Dataset
+* 🌐 **Live Interactive Dashboard:** *(publish to Power BI Service and add link here)*
+* 📂 **Dataset Source:** [Global Retail / Superstore Transactional Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+* 📊 **Local Dataset:** [`Data/global_retail_sales.xlsx`](Data/global_retail_sales.xlsx)
 
 ---
 
@@ -52,7 +53,22 @@ An executive-level Power BI dashboard engineered to translate complex global ret
 
 ## 📂 Repository Structure
 ```text
-├── Data/                   # Raw and cleaned dataset files
-├── Scripts/                # Python scripts / Jupyter Notebooks for data preprocessing
-├── Global_Sales_Insights.pbix # Final Power BI Desktop project file
-└── README.md               # Project documentation
+├── Data/
+│   └── global_retail_sales.xlsx   # Source transactional sales dataset
+├── Scripts/                       # Python scripts / Jupyter Notebooks for data preprocessing
+├── Global_Sales_Insights.pbix     # Power BI Desktop project (dashboard + data model)
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🏁 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pareekmannu/Global-Sales-Performance-Insights.git
+   cd Global-Sales-Performance-Insights
+   ```
+2. **Open the dashboard** — Launch `Global_Sales_Insights.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+3. **Refresh data (if needed)** — Point the report data source to `Data/global_retail_sales.xlsx` if the file path differs on your machine.

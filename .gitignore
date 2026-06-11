@@ -1,0 +1,17 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Power BI backups
+*.pbix.bak
+
+# Excel temporary files
+~$*
